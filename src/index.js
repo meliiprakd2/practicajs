@@ -12,7 +12,7 @@ require("./database");
 require("./config/passport");
 
 // Settings
-app.set("port", process.debugPort || 3000);
+app.set("port", process.env.PORT || 8080);
 
 // Views
 app.set("views", path.join(__dirname, "views"));
