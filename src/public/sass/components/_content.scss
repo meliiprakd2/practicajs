@@ -1,0 +1,109 @@
+#content {
+    float: left;
+    width: 60%;
+    background: white;
+    min-height: 500px;
+    padding: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+td,
+th {
+    width: 25%;
+    vertical-align: middle;
+    outline: 1px solid skyblue;
+}
+
+th {
+    background-color: lightskyblue;
+    color: white;
+}
+
+tr:nth-of-type(even) {
+    background-color: lightblue;
+}
+
+tr:nth-of-type(odd) {
+    background-color: rgb(190, 215, 248);
+}
+
+h4 {
+    color: gray;
+}
+
+.prim {
+    width: 520px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: rgba(5, 5, 5, 0.788);
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 20px;
+    box-shadow: 0 10px 25px 0 rgb(175, 175, 175);
+}
+
+.seg {
+    width: 520px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px 0 rgb(175, 175, 175);
+}
+
+.ter {
+    width: 520px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: rgba(5, 5, 5, 0.788);
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px 0 rgb(175, 175, 175);
+}
+
+th {
+    background-color: lightskyblue;
+    color: white;
+}
+
+img.img1 {
+    float: left;
+    vertical-align: middle;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+img.img2 {
+    float: left;
+    padding-right: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+img.img3 {
+    float: left;
+    padding-right: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}

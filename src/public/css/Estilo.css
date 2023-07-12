@@ -1,0 +1,292 @@
+                            * {
+                                margin: 0px;
+                                padding: 0px;
+                            }
+                            
+                            body {
+                                background: lightgray;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                            
+                            #container {
+                                width: 1100px;
+                                margin: 0px auto;
+                                border: 1px solid black;
+                            }
+                            
+                            header {
+                                width: 100%;
+                                height: 150px;
+                                margin: 0px;
+                            }
+                            
+                            nav {
+                                background: rgb(17, 17, 24);
+                                height: 50px;
+                                width: 100%;
+                                border-bottom: 1px solid black;
+                            }
+                            
+                            nav ul li {
+                                float: left;
+                                list-style: none;
+                                margin: 10px;
+                                line-height: 30px;
+                            }
+                            
+                            .clearfix {
+                                clear: both;
+                            }
+                            
+                            #content {
+                                float: left;
+                                width: 60%;
+                                background: white;
+                                min-height: 500px;
+                                padding: 30px;
+                            }
+                            
+                            p {
+                                text-align: justify;
+                            }
+                            
+                            table {
+                                width: 100%;
+                                text-align: center;
+                            }
+                            
+                            td,
+                            th {
+                                width: 25%;
+                                vertical-align: middle;
+                                outline: 1px solid skyblue;
+                            }
+                            
+                            th {
+                                background-color: lightskyblue;
+                                color: white;
+                            }
+                            
+                            tr:nth-of-type(even) {
+                                background-color: lightblue;
+                            }
+                            
+                            tr:nth-of-type(odd) {
+                                background-color: rgb(190, 215, 248);
+                            }
+                            
+                            h4 {
+                                color: gray;
+                            }
+                            
+                            .prim {
+                                width: 520px;
+                                height: 150px;
+                                background: rgb(255, 255, 255);
+                                margin-top: 1%;
+                                margin-bottom: 1%;
+                                color: rgba(5, 5, 5, 0.788);
+                                text-align: justify;
+                                font-size: 16px;
+                                padding-top: 10px;
+                                padding-right: 20px;
+                                box-shadow: 0 10px 25px 0 rgb(175, 175, 175);
+                            }
+                            
+                            .seg {
+                                width: 520px;
+                                height: 150px;
+                                background: rgb(255, 255, 255);
+                                margin-top: 1%;
+                                margin-bottom: 1%;
+                                text-align: justify;
+                                font-size: 16px;
+                                padding-top: 10px;
+                                padding-right: 20px;
+                                border-radius: 4px;
+                                box-shadow: 0 10px 25px 0 rgb(175, 175, 175);
+                            }
+                            
+                            .ter {
+                                width: 520px;
+                                height: 150px;
+                                background: rgb(255, 255, 255);
+                                margin-top: 1%;
+                                margin-bottom: 1%;
+                                color: rgba(5, 5, 5, 0.788);
+                                text-align: justify;
+                                font-size: 16px;
+                                padding-top: 10px;
+                                padding-right: 20px;
+                                border-radius: 4px;
+                                box-shadow: 0 10px 25px 0 rgb(175, 175, 175);
+                            }
+                            
+                            th {
+                                background-color: lightskyblue;
+                                color: white;
+                            }
+                            
+                            img.img1 {
+                                float: left;
+                                vertical-align: middle;
+                                margin-left: 3%;
+                                margin-right: 3%;
+                            }
+                            
+                            img.img2 {
+                                float: left;
+                                padding-right: 10px;
+                                margin-left: 3%;
+                                margin-right: 3%;
+                            }
+                            
+                            img.img3 {
+                                float: left;
+                                padding-right: 10px;
+                                margin-left: 3%;
+                                margin-right: 3%;
+                            }
+                            
+                            * {
+                                box-sizing: border-box;
+                            }
+                            
+                            form {
+                                width: 520px;
+                                padding: 15px;
+                                border-radius: 10px;
+                                background-color: #ccc;
+                                font-size: 12px;
+                            }
+                            
+                            form legend {
+                                font-size: 14px;
+                                text-align: left;
+                            }
+                            
+                            form label {
+                                width: 200px;
+                                text-align: left;
+                            }
+                            
+                            form input[type="text"],
+                            form input[type="email"] {
+                                width: 100%;
+                                padding: 3px 10px;
+                                border: 1px solid #f6f6f6;
+                                border-radius: 3px;
+                                background-color: #f6f6f6;
+                                margin: 8px 0;
+                                display: inline-block;
+                            }
+                            
+                            form input[type="submit"] {
+                                width: 20%;
+                                padding: 8px 16px;
+                                border: 1px solid rgb(2, 146, 2);
+                                border-radius: 5px;
+                                color: #fff;
+                                background-color: rgb(2, 146, 2);
+                                margin: auto;
+                                display: block;
+                            }
+                            
+                            form input[type="submit"]:hover {
+                                margin: auto;
+                                display: block;
+                            }
+                            
+                            textarea {
+                                width: 100%;
+                                height: 100px;
+                                border: 1px solid #f6f6f6;
+                                border-radius: 3px;
+                                background-color: #f6f6f6;
+                                margin: 8px 0;
+                                resize: none;
+                                display: block;
+                            }
+                            
+                            p>label {
+                                display: block;
+                            }
+                            
+                            input[type="text"],
+                            input[type="email"],
+                            textarea,
+                            fieldset {
+                                width: 100%;
+                                border: 1px solid #333;
+                                box-sizing: border-box;
+                            }
+                            
+                            input:invalid {
+                                box-shadow: 0 0 5px 1px red;
+                            }
+                            
+                            input:focus:invalid {
+                                box-shadow: none;
+                            }
+                            
+                            .article {
+                                color: white;
+                                margin-top: 15px;
+                                margin-bottom: 15px;
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid #eee;
+                            }
+                            
+                            aside {
+                                float: left;
+                                width: 40%;
+                                background: white;
+                                min-height: 560px;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                            }
+                            
+                            footer {
+                                background: black;
+                                color: gray;
+                                height: 290px;
+                                line-height: 20px;
+                            }
+                            
+                            .fup {
+                                text-align: left;
+                                height: 90px;
+                                line-height: 80px;
+                                border-bottom: 1px solid rgb(95, 89, 89);
+                                margin-left: 20px;
+                            }
+                            
+                            .rounded-button {
+                                float: right;
+                                display: flex;
+                                width: 7%;
+                                height: 35%;
+                                margin-top: 20px;
+                                margin-right: 20px;
+                                align-items: center;
+                                justify-content: center;
+                                background-color: #808080;
+                                color: #ffffff;
+                                border: none;
+                                border-radius: 5px;
+                                padding: 5px 10px;
+                                font-size: 16px;
+                            }
+                            
+                            .button-text {
+                                margin-right: 5px;
+                            }
+                            
+                            h7 {
+                                color: white;
+                            }
+                            
+                            .indice {
+                                color: gray;
+                                font-size: 12px;
+                            }
