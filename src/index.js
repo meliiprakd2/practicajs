@@ -12,7 +12,7 @@ require("./database");
 require("./config/passport");
 
 // Settings
-app.set("port", process.env.PORT || 8080);
+//app.set("port", process.env.PORT || 3000);
 
 // Views
 app.set("views", path.join(__dirname, "views"));
@@ -59,6 +59,8 @@ app.use(require("./routes/notes.routes"));
 app.use(express.static(path.join(__dirname, "/public")));
 
 //Server is listening
-app.listen(app.get("port"), () => {
+/* app.listen(app.get("port"), () => {
     console.log("Server on port", app.get("port"));
-});
+}); */
+app.listen(process.env.PORT || 3000);
+console.log("Server on port", process.env.PORT || 3000);
